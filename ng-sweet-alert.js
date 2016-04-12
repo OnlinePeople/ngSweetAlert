@@ -1,7 +1,7 @@
 (function Module() {
 	'use strict';
 
-	angular.module('lgraziani.ngSweetAlert', []).factory('SweetAlert', ['$window', '$q', function ngSweetAlert($window, $q) {
+	angular.module('ngSweetAlert', []).factory('SweetAlert', ['$window', '$q', function ngSweetAlert($window, $q) {
 		// Temporary solution for the tab key error
 		// https://github.com/t4t5/sweetalert/issues/127#issuecomment-139042246
 		var swalInstance = angular.copy($window.swal);
