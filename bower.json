@@ -11,7 +11,7 @@
     "AngularJs",
     "sweetalert",
     "sweet",
-    "alert",
+    "alert"
   ],
   "license": "MIT",
   "ignore": [
