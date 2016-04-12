@@ -1,21 +1,21 @@
 # Promised AngularJS wrapper for SweetAlert
 
-AngularJS wrapper for [SweetAlert](http://tristanedwards.me/sweetalert) built with Promises. Sweet Alert is a beautiful replacement for Javascript's "Alert".
+AngularJS wrapper for [SweetAlert](t4t5.github.io/sweetalert/) built with Promises. Sweet Alert is a beautiful replacement for Javascript's "Alert".
 
 ## Dependencies
-- required:  
-	[AngularJS](https://github.com/angular/angular)  
-	[sweetalert](https://github.com/t4t5/sweetalert)
+- Required:
+	[AngularJS](https://github.com/angular/angular).
+	[sweetalert](https://github.com/t4t5/sweetalert).
 
 ## Install
-1. download the files
+1. Download the files
 	1. Bower
-		1. `bower install angular-sweetalert-as-promised`
+		1. `bower install --save angular-sweetalert-as-promised`
 2. include the files in your app
 	1. `Alert.min.js`
 	2. `sweet-alert.js` OR `sweet-alert.min.js`
 	3. `sweet-alert.css`
-3. include the module in angular (i.e. in `app.js`) - `jutaz.ngSweetAlertAsPromised`
+3. include the module in angular (i.e. in `app.js`) - `lgraziani.ngSweetAlert`
 
 ## Examples
 
