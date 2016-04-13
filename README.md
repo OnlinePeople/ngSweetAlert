@@ -4,9 +4,8 @@
 AngularJS wrapper for [SweetAlert](t4t5.github.io/sweetalert/) built with Promises. Sweet Alert is a beautiful replacement for Javascript's "Alert".
 
 ## Dependencies
-- Required:
-	[AngularJS](https://github.com/angular/angular).
-	[sweetalert](https://github.com/t4t5/sweetalert).
+- [AngularJS](https://github.com/angular/angular).
+- [sweetalert](https://github.com/t4t5/sweetalert).
 
 ## Install
 1. Download the files, or
