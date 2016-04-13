@@ -1,4 +1,5 @@
 # Promised AngularJS wrapper for SweetAlert
+[![Dependency Status](https://gemnasium.com/badges/github.com/LucianoGraziani/ngSweetAlert.svg)](https://gemnasium.com/github.com/LucianoGraziani/ngSweetAlert)
 
 AngularJS wrapper for [SweetAlert](t4t5.github.io/sweetalert/) built with Promises. Sweet Alert is a beautiful replacement for Javascript's "Alert".
 
