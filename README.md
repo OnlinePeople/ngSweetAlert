@@ -9,14 +9,13 @@ AngularJS wrapper for [SweetAlert](t4t5.github.io/sweetalert/) built with Promis
 	[sweetalert](https://github.com/t4t5/sweetalert).
 
 ## Install
-1. Download the files
-	1. Bower
-		1. `bower install --save angular-sweetalert-as-promised`
-2. include the files in your app
-	1. `Alert.min.js`
-	2. `sweet-alert.js` OR `sweet-alert.min.js`
-	3. `sweet-alert.css`
-3. include the module in angular (i.e. in `app.js`) - `lgraziani.ngSweetAlert`
+1. Download the files, or
+2. with Bower: `bower install --save ng-sweet-alert-promised`.
+3. Include the file in your app:
+	1. `ng-sweet-alert.js` OR `ng-sweet-alert.min.js`.
+	2. `sweetalert.js` OR `sweetalert.min.js`.
+	3. `sweetalert.css`.
+3. Include the module in angular (i.e. in `app.js`) - `ngSweetAlert`.
 
 ## Examples
 
@@ -46,8 +45,3 @@ SweetAlert.warning({
 	// User declined
 });
 ```
-
-
-## Documentation
-
-- [http://tristanedwards.me/sweetalert](http://tristanedwards.me/sweetalert)
