@@ -10,12 +10,12 @@ AngularJS wrapper for [SweetAlert](t4t5.github.io/sweetalert/) built with Promis
 
 ## Install
 1. Download the files, or
-2. with Bower: `bower install --save ng-sweet-alert-promised`.
+2. with Bower: `bower install --save ng-sweet-alert-promised`
 3. Include the file in your app:
-	1. `ng-sweet-alert.js` OR `ng-sweet-alert.min.js`.
-	2. `sweetalert.js` OR `sweetalert.min.js`.
-	3. `sweetalert.css`.
-3. Include the module in angular (i.e. in `app.js`) - `ngSweetAlert`.
+	1. `ng-sweet-alert.js` OR `ng-sweet-alert.min.js`
+	2. `sweetalert.js` OR `sweetalert.min.js`
+	3. `sweetalert.css`
+3. Include the module in angular (i.e. in `app.js`) - `ngSweetAlert`
 
 ## Examples
 
