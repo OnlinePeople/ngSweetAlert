@@ -35,9 +35,11 @@
 					return defer.promise;
 				},
 				close: function close() {
-					if (typeof swal.close !== 'undefined') {
-						swal.close();
-					}
+					setTimeout(function closeDelay() {
+						if (typeof swal.close !== 'undefined') {
+							swal.close();
+						}
+					}, 105);
 				},
 				success: function success(options) {
 					options.type = 'success';

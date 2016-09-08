@@ -1,4 +1,6 @@
-var gulp = require('gulp'),
+var fs = require('fs'),
+	jsonPackage = JSON.parse(fs.readFileSync('./package.json')),
+	gulp = require('gulp'),
 	concat = require('gulp-concat'),
 	uglify = require('gulp-uglify'),
 	clean = require('gulp-clean'),
@@ -9,14 +11,14 @@ var gulp = require('gulp'),
 	};
 
 gulp.task('clean', function cleanTask() {
-	return gulp.src(paths.build + 'scripts.js', {
+	return gulp.src(paths.build + '*.js', {
 			read: false,
 		})
 		.pipe(clean());
 });
 gulp.task('build', ['clean', ], function buildTask() {
 	return gulp.src(paths.app)
-		.pipe(concat(app + '.min.js'))
+		.pipe(concat(app + '-v' + jsonPackage.version + '.min.js'))
 		.pipe(gulp.dest(paths.build))
 		.pipe(uglify())
 		.pipe(gulp.dest(paths.build));
