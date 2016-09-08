@@ -1,0 +1,1 @@
+- [ ] Replace `sweetalert` for [`sweetalert2`](https://github.com/limonte/sweetalert2).

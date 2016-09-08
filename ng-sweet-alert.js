@@ -19,14 +19,19 @@
 			self = {
 				swal: function templateMethod(options) {
 					var defer = $q.defer();
-					swal(options, function swalCallback(response) {
-						// @var response bool|object
-						if (!response) {
-							defer.reject(response);
-							return;
-						}
-						defer.resolve(response);
-					});
+					// this timeout will allow to chain swals one inside another's promise
+					// and won't be closed.
+					setTimeout(function chainDelay() {
+						swal(options, function swalCallback(response) {
+							// @var response bool|object
+							if (!response) {
+								defer.reject(response);
+								return;
+							}
+							defer.resolve(response);
+						});
+					}, 100);
+
 					return defer.promise;
 				},
 				close: function close() {
