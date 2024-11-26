@@ -22,7 +22,7 @@
 					// this timeout will allow to chain swals one inside another's promise
 					// and won't be closed.
 					setTimeout(function chainDelay() {
-						swal(options, function swalCallback(response) {
+						swal(options, function(response) {
 							// @var response bool|object
 							if (!response) {
 								defer.reject(response);
